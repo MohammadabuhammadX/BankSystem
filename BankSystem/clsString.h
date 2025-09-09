@@ -1,3 +1,4 @@
+
 #pragma once
 
 #include <iostream>
@@ -324,10 +325,10 @@ public:
         while ((pos = S1.find(Delim)) != std::string::npos)
         {
             sWord = S1.substr(0, pos); // store the word   
-            if (sWord != "")
-            {
-                vString.push_back(sWord);
-            }
+            // if (sWord != "")
+            // {
+            vString.push_back(sWord);
+            //}
 
             S1.erase(0, pos + Delim.length());  /* erase() until positon and move to next word. */
         }
@@ -348,6 +349,8 @@ public:
 
     static string TrimLeft(string S1)
     {
+
+
         for (short i = 0; i < S1.length(); i++)
         {
             if (S1[i] != ' ')
@@ -509,5 +512,5 @@ public:
         _Value = RemovePunctuations(_Value);
     }
 
-};
 
+};

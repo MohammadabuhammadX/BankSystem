@@ -1,6 +1,6 @@
 #pragma once
 #include<iostream>
-#include "person.h"
+#include "clsPerson.h"
 #include "Employee.h"
 
 using namespace std;

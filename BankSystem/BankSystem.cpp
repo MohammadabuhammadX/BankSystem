@@ -1,8 +1,12 @@
-#include<iostream>
-
-using namespace std;
+#include <iostream>
+#include "clsLoginScreen.h"
 
 int main()
+
 {
-    cout << "Hello World!\n";
+
+    clsLoginScreen::ShowLoginScreen();
+
+    system("pause>0");
+    return 0;
 }
